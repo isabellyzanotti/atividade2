@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/*Estilização Header*/
+.logo {
+    width: 120px;
+}
+
+#barra_navegacao {
+    display: flex;
+    justify-content: center;
+
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul li {
+    padding: 10px 30px;
+    font-weight: 500;
+    /*justify-content: flex-end;*/
+    height: 50px;
+    max-height: 180%;
+
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    padding-left: 5px;
+    display: flex;
+    margin-top: -67px;
+
+}
+
+header {
+    background-color: rgb(197, 45, 75);
+}
+
+/*Estilização FORM*/
+
+input[type="text"],
+input[type="number"] {
+    padding: 6px;
+}
+
+input[type="button"] {
+    background-color: #d3d3d3;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="button"]:hover {
+    background-color: #c3ccc3;
+}
+
+form {
+    background-color: #cf7777;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 10px 20px 10px;
+    width: 250px;
+    margin-top: 30px;
+
+    /*align-items: center;*/
+}
+
+/*Estilização MAIN*/
+main {
+    font-size: 18px;
+    align-items: center;
+    line-height: 25px;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+h1 {
+    font-size: 28px;
+
+}
+
+h2 {
+    font-size: 20px;
+
+}
+
+/*CSS MESA*/
+#imgMesa {
+    width: 90px;
+    height: 90px;
+}
+
+#pMesa {
+    font-size: 20px;
+
+}
+#numero{
+    width: 210px;
+    height: 40px;
+}
+
+.divMesa {
+    background-color: #cf7777;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    cursor: pointer;
+   
+}
+
+
+/*CSS do pedido*/
+
+#imgPedido{
+    width: 90px;
+    height: 90px;
+}
+.divPedido{
+    background-color: #cf7777;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    cursor: pointer;
+   
+}
+#pedido{
+    width: 300px;
+    
+}
+#addPedido {
+    background-color: #cf7777;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 10px 20px 10px;
+    width: 380px;
+    margin-top: 30px;
+
+    /*align-items: center;*/
+}
